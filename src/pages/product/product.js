@@ -18,7 +18,7 @@ const Product =() =>{
   
 
     const fetchSingleProduct = async () =>{
-      const response = await fetch(`https://excited-plum-hatchling.cyclic.app/products/${id}`)
+      const response = await fetch(`https://lime-barnacle-yoke.cyclic.app/products/${id}`)
       const data = await response.json()
       console.log(response.json)
       setSingleProduct(data.product)
@@ -31,7 +31,7 @@ const Product =() =>{
       } 
     }, [])
    const handleDelete = async () =>{
-    const response = await fetch(`https://excited-plum-hatchling.cyclic.app/products/${id}`,{
+    const response = await fetch(`https://lime-barnacle-yoke.cyclic.app/products/${id}`,{
 method: "DELETE",
 headers:{
   Authorization:`Bearer ${token}`
