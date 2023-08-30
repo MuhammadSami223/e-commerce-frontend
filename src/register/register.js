@@ -27,7 +27,7 @@ const Register = () => {
   }
   const handleSubmit = async ()=>{
     const userData = {userName,password}; 
-    const response = await fetch("https://excited-plum-hatchling.cyclic.app/users/register",{
+    const response = await fetch("https://lime-barnacle-yoke.cyclic.app/users/register",{
       method:"POST",
           headers:{ 
             "Content-Type":"application/json",
