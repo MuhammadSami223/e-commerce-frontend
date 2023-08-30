@@ -46,7 +46,7 @@ const response = await fetch(`https://lime-barnacle-yoke.cyclic.app/products/${i
   // }
   const handleSubmit = async ( )=>{
     const productData = {...singleProduct}
-    const response = await fetch(`https://excited-plum-hatchling.cyclic.app/products/edit/${id}`,
+    const response = await fetch(`https://lime-barnacle-yoke.cyclic.app/products/edit/${id}`,
     {
       method:"PUT",
       headers:{ 
