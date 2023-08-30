@@ -12,7 +12,7 @@ const Home = () => {
   const [products, setProducts] = useState([]);
 
   const fetchProducts = async () => {
-    const response = await fetch("https://excited-plum-hatchling.cyclic.app/products/all");
+    const response = await fetch("https://lime-barnacle-yoke.cyclic.app/products/all");
     const data = await response.json();
     setProducts(data.products);
     setProductsGlobally(data.products);
